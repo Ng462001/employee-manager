@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://employee-manager-ng.vercel.app/")
+@CrossOrigin("https://employee-manager-ng.vercel.app")
 @RestController
 @RequestMapping("/api")
 public class EmployeeController {
